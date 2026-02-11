@@ -1,0 +1,16 @@
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+.range-slider .range-slider__thumb{
+  background: #ef0f0f !important  ;
+  width: 13px;
+  height: 13px;
+}
+.range-slider .range-slider__range{
+    background: #ef0f0f !important  ;
+    height: 6px;
+}
+.range-slider{
+
+    height: 6px;
+}

@@ -6,7 +6,7 @@ const HoverDropdown = ({ name, link, subList = [] }) => {
       {/* Main Link */}
       <Link
         to={link}
-        className="px-2 py-1 inline-flex items-center text-sm 2xl:text-md lg:text-sm font-medium text-gray-800 hover:text-primary"
+        className="px-2 py-1 inline-flex items-center text-sm 2xl:text-md lg:text-sm font-medium text-lightGray hover:text-primary"
       >
         {name}
         {subList.length > 0 && (

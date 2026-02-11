@@ -1,19 +1,23 @@
 
 
+import { Outlet } from 'react-router'
 import './App.css'
+import Footer from './components/footer/Footer'
 import { Header} from './components/header'
+import Home from './pages/Home'
+
 
 function App() {
 
   return (
 
- <>
+ <div className='font-primary'>
     <Header/>
 
-      <div className='w-screen min-h-[900px] bg-red-100'></div>
-      <div className='w-screen min-h-[900px] bg-blue-100'></div>
-    </>
-
+{/* <Home/> */}
+<Outlet/>
+<Footer/>
+    </div>
   )
 }
 
